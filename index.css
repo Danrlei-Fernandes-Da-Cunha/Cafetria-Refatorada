@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+:root {
+    --margin: auto;
+    --max-width: 1040px;
+}
+/* Head do topo */
+.header-color {
+    background-color: #604829;
+}
+.header-topo {
+    max-width: var(--max-width);
+    margin: var(--margin);
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0 15px 0 15px;
+    font-family: "Oswald", sans-serif;
+}
+
+.assets-logo-container {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.assets-logo {
+   max-width: 100%;
+   height: auto;
+}
+
+.nav-topo {
+    flex-wrap: 1 1 calc(520px - 15px);
+    font-size: 13px;
+}
+
+.nav-topo a {
+    font-size: 11px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #b8925e;
+    text-shadow: 0px 2.5px 1px black;
+    margin: 5px;
+}
+
+/* Banner Header */
+
+.banner-header {
+    max-width: 100%;
+    max-height: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner-titulo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner-titulo h1 {
+    position: absolute;
+    font-size: 6.8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+}
