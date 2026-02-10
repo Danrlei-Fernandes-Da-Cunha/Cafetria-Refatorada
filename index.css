@@ -11,6 +11,9 @@
 /* Head do topo */
 .header-color {
     background-color: #604829;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .header-topo {
     max-width: var(--max-width);
@@ -24,6 +27,7 @@
     flex-wrap: wrap;
     padding: 0 15px 0 15px;
     font-family: "Oswald", sans-serif;
+    
 }
 
 .assets-logo-container {
@@ -79,4 +83,8 @@
     transform: translate(-50%, -50%);
     white-space: nowrap;
     color: white;
+}
+
+.teste{
+    height: 900px;
 }
